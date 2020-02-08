@@ -364,7 +364,7 @@ class SelectNode extends SimpleNode {
     if (input == null) {
       return null;
     }
-    if (!(input is List)) {
+    if (selectType == SelectNodeType.one || !(input is List)) {
       return next.search(input, root);
     }
     var result = [];

@@ -38,4 +38,5 @@
 //[start:end]
 //数组切片操作
 //[?(<expression>)]	过滤表达式。 表达式必须求值为一个布尔值。
-import './src/jpath.dart' show JPath;
+//import './src/jpath.dart' show JPath;
+export './src/jpath.dart' show JPath;
